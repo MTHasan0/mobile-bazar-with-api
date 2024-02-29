@@ -81,7 +81,7 @@ const showPhoneDetails = (phone) => {
             <p class="py-4 text-lg font-bold">Slug: <span class="font-normal">${phone.data.slug}</span></p>
             <p class="py-4 text-lg font-bold">Release Date: <span class="font-normal">${phone.data.releaseDate}</span></p>
             <p class="py-4 text-lg font-bold">Brand: <span class="font-normal">${phone.data.brand}</span></p>
-            <p class="py-4 text-lg font-bold">GPS: <span class="font-normal">${phone?.data?.others?.GPS}</span></p>
+            <p class="py-4 text-lg font-bold">GPS: <span class="font-normal">${phone?.data?.others?.GPS || 'No GPS available'}</span></p>
             
             
     
